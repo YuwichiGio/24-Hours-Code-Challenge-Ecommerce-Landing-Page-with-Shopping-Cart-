@@ -27,7 +27,7 @@
           <div class="right-nav">
             <ul>
               <li><img src="assets/nav-bar-menu/bx_bx-user.png"></li>
-              <li><img src="assets/nav-bar-menu/bx_bx-shopping-bag.png"></li>
+              <li><img src="assets/nav-bar-menu/bx_bx-shopping-bag.png" onclick="toggleShoppingBagModal()"></li>
               <li><img src="assets/nav-bar-menu/bx_bx-heart.png"></li>
               <li><img src="assets/nav-bar-menu/bx_bx-support.png"></li>
               <li><img src="assets/nav-bar-menu/bx_bx-search.png"></li>
@@ -35,6 +35,15 @@
             <img src="assets/nav-bar-menu/Currency.png">
           </div>
         </nav>
+      </div>
+    </div>
+
+    <!-- Modal for Shopping Bag -->
+    <div id="shoppingBagModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="toggleShoppingBagModal()">&times;</span>
+        <h2>Shopping Bag</h2>
+        <div id="shoppingBagItems"></div>
       </div>
     </div>
 
@@ -178,7 +187,7 @@
           <p class="description"> Festive Looks Rust Red Ribbed Velvet Long Sleeve Bodysuit </p>
         <div class="buy-container">
           <p class="price"> $38 </p>
-          <button>Buy</button>
+          <button onclick="handleBuyClick(this)">Buy</button>
         </div>
       </div>
 
@@ -187,7 +196,7 @@
         <p class="description"> Chevron Flap Crossbody Bag </p>
         <div class="buy-container">
           <p class="price"> $5.77 <span> $7.34 </span></p>
-          <button>Buy</button>
+          <button onclick="handleBuyClick(this)">Buy</button>
         </div>
       </div>
 
@@ -196,7 +205,7 @@
         <p class="description"> Manilla Tan Multi Plaid Oversized Fringe Scarf </p>
         <div class="buy-container">
           <p class="price"> $29 <span> $39 </span></p>
-          <button>Buy</button>
+          <button onclick="handleBuyClick(this)">Buy</button>
         </div>
       </div>
 
@@ -205,7 +214,7 @@
         <p class="description"> Diamante Puff Sleeve Dress - Black </p>
         <div class="buy-container">
           <p class="price"> $29 <span> $39 </span></p>
-          <button>Buy</button>
+          <button onclick="handleBuyClick(this)">Buy</button>
         </div>
       </div>
 
@@ -214,7 +223,7 @@
         <p class="description">  Banneth Open Front Formal Dress in Black </p>
         <div class="buy-container">
           <p class="price"> $69 <span> $99.95 </span></p>
-          <button>Buy</button>
+          <button onclick="handleBuyClick(this)">Buy</button>
         </div>
       </div>
     </div>
