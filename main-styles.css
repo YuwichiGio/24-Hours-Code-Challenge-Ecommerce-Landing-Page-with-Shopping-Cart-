@@ -215,10 +215,10 @@ nav ul li{
 }
 
 .hastag-container {
-  margin-top: 20px;
+  margin: 30px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .hastag {
@@ -287,9 +287,8 @@ nav ul li{
 .recent-bought {
   background-color: #FFF;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
 }
-
 
 .column {
   display: flex;
@@ -332,4 +331,35 @@ nav ul li{
 .buy-container button {
   background-color: #d3d3d3;
   margin: 0px;
+}
+
+/* instagram section  */
+.insta-section {
+  text-align: center;
+  background-color: #F2F2F2;
+  padding: 30px;
+}
+
+.insta-column {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px
+}
+
+.insta-section p {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.insta-section button {
+  border: 0;
+  padding: 10px 20px;
+  background: black;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 20px;
 }
