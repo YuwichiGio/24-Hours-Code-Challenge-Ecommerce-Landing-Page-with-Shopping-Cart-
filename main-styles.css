@@ -34,7 +34,6 @@ nav ul li{
   margin: 10px 5px;
 }
 
-
 .left-nav ul li a{
   text-decoration: none;
   color: black;
@@ -130,19 +129,20 @@ nav ul li{
 /* vip exclusive  */
 #vip-exclusive {
   width: 100%;
-  height: 75px;
   background-image: url(assets/vip_background.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  padding: 10px 0px;
 }
 
 .container button {
   border-width: 0;
   margin: 0px 150px;
-  padding: 15px 30px;
+  padding: 10px 20px;
   font-size: 18px;
-  font-weight: 600px;
+  font-weight: 800;
+  transition: transform 0.5s;
 }
 
 #vip-exclusive .container {
@@ -159,11 +159,18 @@ nav ul li{
 
 #vip-exclusive .container h2{
   color: white;
+  font-size: 32px;
+  font-weight: 800;
+  padding-right: 50px;
 }
 
 .black-friday {
   display: flex;
-  gap: 12px;
 }
+
+.container button:hover{
+  transform: translateY(-5px);
+}
+
 
 /* now trending  */
