@@ -86,7 +86,7 @@ function handleBuyClick(button) {
    let selectedItems = JSON.parse(localStorage.getItem("selectedItems")) || [];
    selectedItems.splice(index, 1); // Remove item from array
    localStorage.setItem("selectedItems", JSON.stringify(selectedItems)); // Update local storage
-   openShoppingBagModal(); // Refresh shopping bag modal
+   openShoppingBagModal(); // Refresh shopping bag
  }
 
  // Function to open the shopping bag
