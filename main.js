@@ -27,6 +27,7 @@ function handleBuyClick(button) {
     console.log("Item added to cart:", selectedItem);
   }
 
+
   // Function to toggle the shopping bag modal
   function toggleShoppingBagModal() {
     let modal = document.getElementById("shoppingBagModal");
