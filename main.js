@@ -76,3 +76,8 @@ function handleBuyClick(button) {
     // This line is optional, you can remove it if you don't want to automatically load the items
     closeShoppingBagModal();
   };
+
+  // Function to redirect to the checkout page
+ function redirectToCheckout() {
+   window.location.href = "checkout.html";
+ }
