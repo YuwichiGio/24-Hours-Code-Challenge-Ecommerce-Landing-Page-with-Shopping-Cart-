@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+}
+
+
+body {
+  background: gray;
+}
+
+.container {
+  padding: 5px 20px;
+}
+
+/* navigation bar  */
+
+#nav-bar {
+  width: 100%;
+  height: 70px;
+  background: white;
+}
+
+.container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 5px;
+}
+
+
+.left-nav ul li a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-nav ul li {
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+/* benefits bar  */
+
+#benefits {
+  width: 100%;
+  height: 50px;
+  background: #F2F2F2;
+}
+
+.benefits-list ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 50px;
+}
+
+.benefits-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* slideshow  */
+#slideshow{
+  width: 100%;
+  height: 100vh;
+  background-image: url(assets/slideshow_background.png);
+  background-size: cover;
+  background-position: center;
+}
+.mySlides {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slide1-col-1 {
+  flex-basis: 40%;
+}
+
+.slide1-col-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.slide1-col-2 {
+  height: 100vh;
+  flex-basis: 60%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.slide1-col-2 img {
+  width: 644px;
+  height: 446px;
+}
+
+.slide1-col-2 button {
+  border-width: 0;
+  margin: 0px 150px;
+  padding: 15px 30px;
+  font-size: 36px;
+  font-weight: 600px;
+  transition: background 0.5s, transform 0.5s;
+}
+
+.slide1-col-2 button:hover {
+  background: black;
+  color: white;
+  transform: translateY(-5px);
+}
+
+/* vip exclusive  */
+#vip-exclusive {
+  width: 100%;
+  height: 75px;
+  background-image: url(assets/vip_background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container button {
+  border-width: 0;
+  margin: 0px 150px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600px;
+}
+
+#vip-exclusive .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#vip-exclusive .container p {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#vip-exclusive .container h2{
+  color: white;
+}
+
+.black-friday {
+  display: flex;
+  gap: 12px;
+}
+
+/* now trending  */
